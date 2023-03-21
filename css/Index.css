@@ -130,7 +130,7 @@ ul li:hover a{
 }
 
 .jumbotron {
-    background-image: url(../images/tmp876402230628974593.jpg);
+    background-image: url("../Images/tmp876402230628974593.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
