@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+/* Main Div css */
+h1 {
+	font-family:'Times New Roman', Times, serif;
+    font-size: 105px;
+    color: #0B4A8C;
+    text-align: center;
+
+
+}
+h3{
+	font-family:cursive;
+	font-size: 25px;
+	color:  #04314E;
+
+}
+
+.main{
+	
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	display: flex;
+	align-items: flex-start;
+	
+}
+.aboutme{
+	text-align:left;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 18px;
+	font-style: oblique;
+	text-decoration-color:#0B4A8C;
+   padding: 15px;
+   
+    
+		
+}
+.heading{
+    width:300px;
+    display: flex;
+    border: 1px black;
+}
+.education{
+	text-align:left;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 18px;
+	font-style: oblique;
+	text-decoration-color:#0B4A8C;
+		
+}
+.experience{
+	text-align:left;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 18px;
+	font-style:italic;
+	text-decoration-color:#0B4A8C;
+		
+}
+.body{
+	
+	
+	background-repeat: no-repeat;
+	height: 800px;
+}
+.logo{
+	
+	width:150px;
+}
+.rightbar{
+	float: right;
+	display: flex;
+	background-color:dimgrey;
+	height:1000px;
+	width:51px;
+	list-style: none;
+
+}
+
+.flex-container {
+  display: flex;
+	width: 700px;
+
+}
+
+.flex-container > div {
+   margin: 10px;
+  padding: 10px;
+  font-size:16px;
+}
+header {
+    width: 80%;
+	height: 8%;
+	float: right;
+	}
+
+    
+
+nav
+{
+    width: 50%;
+	text-align: right;
+	margin-right: 15px;
+	float: right;
+
+}
+header nav ul{
+	
+	list-style: none;
+	float: right;
+	
+}
+nav ul li{
+	
+	list-style: none;
+	float: left;
+	font-size: 18px;
+	text-align: left;
+	margin-right: 25px;
+	
+}
+ul li a {
+	color: #030303;
+	text-decoration: none;
+}
+ul li:hover a{
+	color:#04c5d3;
+	text-decoration: underline;
+    
+	
+}
+
+.jumbotron {
+    background-image: url(../images/tmp876402230628974593.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 444px;
+       
+  }
+  /* Cards */
+.content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+	
+.footer
+
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+   background-color: dimgray;
+   height:150px;
+   width:0 auto;
+   text-align: center;
+   color: #ffffff;
+   vertical-align: middle;
+      
+}
