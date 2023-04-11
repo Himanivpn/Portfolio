@@ -94,7 +94,7 @@ header {
 
 nav
 {
-    width: 50%;
+    width: 40%;
 	text-align: right;
 	margin-right: 15px;
 	float: right;
@@ -238,3 +238,4 @@ ul li:hover a{
    color: #ffffff;
   width:100%;        
 }
+

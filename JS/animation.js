@@ -1,4 +1,3 @@
-
 /*
 https://github.com/daybrush/scenejs
 */
@@ -46,32 +45,32 @@ https://github.com/daybrush/scenejs-effects
 */
 scene.set({
   "[data-typing='i']": Scene.typing({ text: "I ", duration: 1}),
-  "[data-typing='frontend']": {
-    1: Scene.typing({ text: "'m Front-End", duration: 1}),
+  "[data-typing='Creative']": {
+    1: Scene.typing({ text: "'m Creative", duration: 1}),
   },
-  "[data-typing='engineer']": {
-    1.5: Scene.typing({ text: "Engineer", duration: 1}),
+  "[data-typing='Graphic Designer']": {
+    1.5: Scene.typing({ text: "Graphic Designer", duration: 1}),
   },
-  "[data-typing='with']": {
-    3.3: Scene.typing({ text: "with", duration: 0.5}),
+  "[data-typing='Plus']": {
+    3.3: Scene.typing({ text: "Plus", duration: 0.5}),
   },
-  "[data-typing='javascript']": {
-    4.5: Scene.typing({ text: "JavaScript", duration: 1}),
+  "[data-typing='Web']": {
+    4.5: Scene.typing({ text: "Web", duration: 1}),
   },
-  "[data-typing='typescript']": {
-    6: Scene.typing({ text: "TypeScript", duration: 1}),
+  "[data-typing='UX Designer']": {
+    6: Scene.typing({ text: "UX Designer", duration: 1}),
   },
-  "[data-typing='css']": {
-    7.5: Scene.typing({ text: "CSS", duration: 0.7}),
+  "[data-typing='and']": {
+    7.5: Scene.typing({ text: "and", duration: 0.7}),
   },
-  "[data-typing='nodejs']": {
-    9: Scene.typing({ text: "Node.js", duration: 1}),
+  "[data-typing='Amateur photographer']": {
+    9: Scene.typing({ text: "Amateur photographer", duration: 1}),
   },
-  "[data-typing='animation']": {
-    10.5: Scene.typing({ text: "Animation", duration: 1}),
+  "[data-typing='HTML']": {
+    10.5: Scene.typing({ text: "HTML", duration: 1}),
   },
-  "[data-typing='scenejs']": {
-    12: Scene.typing({ text: "Scene.js", duration: 1}),
+  "[data-typing='CSS']": {
+    12: Scene.typing({ text: "CSS", duration: 1}),
   },
 });
 
