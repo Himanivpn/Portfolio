@@ -193,7 +193,7 @@ ul li:hover a{
   }
  
  .img-fluid-rounded-start{
-	border-radius: 100px;
+	border-radius: 90px;
 	float: right;
  }
   .col-md-8{
@@ -210,6 +210,8 @@ ul li:hover a{
   .card-mb-3{
 	border: none;
 	float: inline-end;
+	padding: 15px;
+	border-radius: 20px;
   }
   .col-sm-6{
 	border-radius: 20px;
