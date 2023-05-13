@@ -1,128 +1,206 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
+<title>Himani Kulkarni Singh</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Himani Kulkarni Singh UX UI Designer</title>
-        <link rel="stylesheet" type="text/css" href="./css/Index.css">
-        <!-- This is REQUIRED for bootstrap to work correctly -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 160px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+ 
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">  
+   <!-- Avatar image in top left corner -->
+   <img src="./Images/logo.png" class="w3-round" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <a href="https://www.instagram.com/pixa_picture/" class="w3-bar-item w3-button w3-padding-large w3-hover-black" target="_blank">
+    <i class="fa fa-instagram w3-xxlarge"></i>
+    <p>INSTAGRAM</p>
+  </a>
+  <a href="https://www.linkedin.com/in/himani-kulkarni-singh-6bb22141/?trk=public-profile-join-page" class="w3-bar-item w3-button w3-padding-large w3-hover-black" target="_blank">
+    <i class="fa fa-linkedin w3-xxlarge"></i>
+    <p>LINKeDIN</p>
+  </a>
+</nav>
 
-<body class="body">	
-	<div><img src="./Images/Logo.png" alt="logo"></div> 	
-         <!-- Navigation bar -->
-	<div><nav>
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Portfolio.html">Portfolio</a>
-              </li>
-                 <li class="nav-item">
-              <a class="nav-link" href="https://docs.google.com/document/d/1vj1doZl76-jDHvY6wSajJlk7b6oqTEN9/edit?usp=sharing&ouid=113477388191287383410&rtpof=true&sd=true" target="_blank">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="mailto:himani_2100@yahoo.com" target="_blank">Connect</a>
-              </li>
-                </ul>
-		</nav></div>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-        <!-- End navigation bar -->
-		<div id="rightbar" class="rightbar">
-			<div>
-			<a href="https://www.linkedin.com/in/himani-kulkarni-singh-6bb22141/?trk=public-profile-join-page"><img src="./Images/LinkedIn.png" position="absolute"></a>
-			<p></p>
-			<a href=""><img src="./Images/instagram.png" position="absolute"></a>
-			<p></p>
-			<a href="mailto:himani_2100@yahoo.com"><img src="./Images/email.png" position="absolute"></a>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-			<img src="./Images/photoshop.png" position="absolute">
-			<p></p>
-			<img src="./Images/illustrator.png" position="absolute">
-			<p></p>
-			<img src="./Images/figma.png" position="absolute">
-			<p></p>
-			<img src="./Images/miro.png" position="absolute">
-			<p></p>
-			<img src="./Images/corel.png" position="absolute">
-			<p></p>
-			<img src="./Images/html.png" position="absolute">
-			<p></p>
-			<img src="./Images/photography.png" position="absolute">		
-		</div>
-		</div>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<div id="Aboutme" style="font-family: Quilon; font-size: 75px; color: gray; text-align: center;"><img src="./Images/8121295.gif" width="150px " height="150px" >About Me</div>
-  
-    <div class="card-mb-3" style="max-width: 1100px; ">
-		<div class="row g-0">
-		  <div class="col-md-4">
-			<img src="./Images/321C3620-DF45-4D7A-ABAE-39E9956D2B46.jpg" class="img-fluid-rounded-start" alt="...">
-		  </div>
-		  <div class="col-md-8">
-			<div class="card-body">
-			   <p class="card-text"><p> A simple yet creative mom of two most lovable and superactive boys, whos restarting her career again post mommy duties.</p>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Himani Kulkarni Singh.</h1>
+    <p>UX/UI Designer.</p>
+    <img src="./Images/himani.jpg" alt="boy" class="w3-image" width="300">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> A simple yet creative mom of two most lovable and superactive boys, whos restarting her career again post mommy duties.</p>
 			  <p>A fun loving person , who loves learning creative things.</p>
 				  <p>A strong team player with good communication, analytical, and relationship management skills.</p>
 				  <p> Having around 7 years of professional experience in various phases of Graphic and Web Designing and a beginner in UX Designing.</p>
 				  <p>A quick learner and can adapt to any situation.</p>
 				  <p>An amateur photographer exploring her photography skills.</p>
-			 
-			</div>
-		  </div>
-		</div>
-	  </div>
-	  <p>&nbsp;</p>
-      <p>&nbsp;</p>
-	<div id="education" style="font-family: Quilon; font-size: 75px; color: gray; text-align: center;">Educational Qualification</h5></div>
-	<!--education-->
-	<div class="row">
-		<div class="col-sm-6 mb-3 mb-sm-0">
-		  <div class="card">
-			<div class="card-body">
-			  <p><img src="./Images/8722459.gif" width="300px" height="300px" alt=""></p>			  
-			</div>
-		  </div>
-		</div>
-		<div class="col-sm-6">
-		  <div class="card">
-			<div class="card-body1">
-			
-			  <p class="card-text"><strong>2003</strong>&nbsp;&nbsp;Bachelor in Mass Media, Mumbai University, India.</p>
-			  <p class="card-text"><strong>2022</strong>&nbsp;&nbsp;Worker Health and Safety Awareness training</p>
-			  <p class="card-text"><strong>2022</strong>&nbsp;&nbsp;Completed Beginner level Photography course by Learn 4 Life</p>
-			  <p class="card-text"><strong>2023</strong>&nbsp;&nbsp;UX/UI Designer Bootcamp from University of Toronto </p>
-			</div>
-		  </div>
-		</div>
-	  </div>
-	<!--ends here-->
-	<!--footer starts here-->
-<div class="footer">
-	
-	<div >Himani Singh <p>UX/UI Designer, Toronto, Canada</p>
-	</div>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Graphic Design</p>
+    <!-- <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div> -->
+    <p class="w3-wide">UI Design</p>
+    <!-- <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div> -->
+    <p class="w3-wide">UX Design</p>
+    <!-- <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div> -->
+    <p class="w3-wide">Photography</p>
+    <!-- <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br> -->
+    
+        <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i><a href="https://docs.google.com/document/d/1vj1doZl76-jDHvY6wSajJlk7b6oqTEN9/edit?usp=sharing&ouid=113477388191287383410&rtpof=true&sd=true" target="_blank"> Download Resume</a>
+    </button>
+  
+    
+    <!-- Grid for pricing tables-->
+    <!-- <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3> -->
+    <!-- <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
 
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div></div> -->
+    <!--End Grid/Pricing tables -->
+  
+
+    
+   <!-- Testimonials-->
+     <!-- <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p> -->
 </div>
-<!--ends here-->
-	 <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
-	
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Portfolio</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <a href="./HW_Mobile-App-Case-Study-Template.pptx.pdf" target="_blank"><img src="./Images/mobile_app.jpg" style="width:100%" class="w3-opacity w3-hover-opacity-off w3-round"></a>
+        <a href="./ThinkLink Presentation - Group 7.pptx.pdf" target="_blank"><img src="./Images/think_link_mob_app.jpg" style="width:100%" class="w3-opacity w3-hover-opacity-off w3-round"></a>
+        <a href="./Website-UI-Redesign-Case-Study-Template_1.pdf" target="_blank"><img src="./Images/Canada_Council.jpg" style="width:100%" class="w3-opacity w3-hover-opacity-off w3-round"></a>
+        
+      </div>
+
+      <div class="w3-half">
+        <a href="./Copy of Discovery House Web Redesign Presentation.pdf" target="_blank"><img src="./Images/discovery_house.png" style="width:100%" class="w3-opacity w3-hover-opacity-off w3-round"></a>
+        <a href="./HW_HUNGER_S HEROES.pptx.pdf" target="_blank"><img src="./Images/hungers_heroes.png" style="width:100%" class="w3-opacity w3-hover-opacity-off w3-round"></a>
+       
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+<br>
+<br><br>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Oshawa, Canada</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 647-987-8095</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:himani_2100@yahoo.com">himanikulkarnisingh@yahoo.com</a></p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+  </div>
+  <!-- End Contact Section -->  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge" align="center">
+    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
+    <a href="https://www.instagram.com/pixa_picture/" class="w3-bar-item w3-button w3-padding-large w3-hover-black" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/himani-kulkarni-singh-6bb22141/?trk=public-profile-join-page" class="w3-bar-item w3-button w3-padding-large w3-hover-black" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i> -->    
+  <!-- End footer -->
+  </footer>
+<!-- END PAGE CONTENT -->
+</div>
 </body>
 </html>

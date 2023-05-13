@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 /* Main Div css */
+
 div{
 	overflow: hidden;	
 }
@@ -14,6 +15,12 @@ h5{
 	font-family:'kabayan';
 	font-size: 5.5em;
 	color:  #017ab3;
+}
+.col
+{
+width: auto;
+padding-left: 5px;
+font-size: 14px;;
 }
 
 .aboutme{
@@ -53,6 +60,8 @@ h5{
 	
 	background-repeat: no-repeat;
 	height: 800px;
+	float: left;
+	width: 431px;
 }
 .logo{
 	
